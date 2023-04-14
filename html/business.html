@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Business - topnews.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image" href="../img/Artboard1.png">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../js/category.js" defer></script>
+        <script src="../js/search.js" defer></script>
+
+    </head>
+  
+    <body>
+        <header>
+            <form class="search" id="search-bar" action='results.html'>
+                <input class="search-txt" id="newsQuery" type="text" placeholder="Search...">
+                <button class="submit"><img src="../img/icons8-search-30.png" alt=""></button>
+            </form>
+            <h1 class="title-item">
+                <a class="title" href="../index.html">topnews.</a>
+            </h1>
+
+            <button class="mobile-toggle" aria-controls="primary-nav" aria-expanded="false"></button>
+
+            <nav>
+                <ul id="primary-nav" data-visible="false" class="nav-items">
+                    <li class="first-search">
+                        <form class="nav-search" id="nav-search-bar" action='results.html'>
+                            <input class="search-txt" id="newsQuery" type="text" placeholder="Search...">
+                            <button class="submit"><img src="../img/icons8-search-30.png" alt=""></button>
+                        </form>  
+                    </li>
+                    <li>
+                        <a class="nav-item" href="general.html">General</a>
+                    </li>
+                    <li>
+                        <a class="nav-item active" href="business.html">Business</a>
+                    </li>
+                    <li>
+                        <a class="nav-item" href="entertianment.html">Entertainment</a>
+                    </li>
+                    <li>
+                        <a class="nav-item" href="health.html">Health</a>
+                    </li>
+                    <li>
+                        <a class="nav-item" href="science.html">Science</a>
+                    </li>
+                    <li>
+                        <a class="nav-item" href="sports.html">Sports</a>
+                    </li>
+                    <li>
+                        <a class="nav-item" href="technology.html">Technology</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+        </main>
+        <footer>
+            <hr>
+            <div class="footer-top">
+                <a class="footer-title" href="../index.html">topnews.</a>
+                <div class="newsletter-container">
+                    <p>NEWSLETTER SIGNUP</p>
+                    <p>Be the first to know!</p>
+                    <form class="input-container">
+                        <input type="text" id="email" name="email" placeholder="Email address">
+                        <button>SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text">
+                <p>&copy 2022 THE TOP. ALL RIGHTS RESERVED</p>
+                <p><a href="#">ABOUT THE TOP</a>  |  <a href="#">CONTACT US</a>  |  <a href="#">PRIVACY POLICY</a>  |  <a href="#">TERMS OF SERVICE</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
